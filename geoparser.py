@@ -3,6 +3,7 @@
 # Getting GEO information from Nginx access.log by IP's.
 # Alexey Nizhegolenko 2018
 # Parts added by Remko Lodder, 2019.
+# Edited for docker container by xthursdayx, 2019.
 # Added: IPv6 matching, make query based on geoip2 instead of
 # geoip, which is going away r.s.n.
 

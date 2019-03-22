@@ -1,10 +1,10 @@
 [NGINX_LOG]
 #Path for the log file (Nginx)
-logpath = /var/log/nginx/access.log
+logpath = /nginx_logs/access.log
 
 [GEOIP]
 #Path for the GEOIP DB file
-geoipdb = ./GeoLite2-City.mmdb
+geoipdb = /app/GeoLite2-City.mmdb
 
 [INFLUXDB]
 # Database URL
@@ -14,7 +14,7 @@ port = 8086
 #Database name
 database = db_name
 
-# HTTP Auth
+# InfluxDB Auth
 username = "username"
 password = "password"
 
